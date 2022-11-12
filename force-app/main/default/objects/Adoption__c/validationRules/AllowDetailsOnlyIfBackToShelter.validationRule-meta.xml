@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>AllowDetailsOnlyIfBackToShelter</fullName>
+    <active>true</active>
+    <description>The Detail field is only editable when stage is selected as Back to Shelter.</description>
+    <errorConditionFormula>AND(NOT(ISPICKVAL(Stage__c, &apos;Back to Shelter&apos;)), NOT(ISBLANK(Detail__c)))</errorConditionFormula>
+    <errorDisplayField>Detail__c</errorDisplayField>
+    <errorMessage>The Detail field is only editable when stage is selected as Back to Shelter.</errorMessage>
+</ValidationRule>

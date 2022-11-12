@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Size__c</fullName>
+    <externalId>false</externalId>
+    <label>Animal Size</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Teacup: up to 2,5 kg</fullName>
+                <default>false</default>
+                <label>Teacup: up to 2,5 kg</label>
+            </value>
+            <value>
+                <fullName>Toy: 2,6 to 5 kg</fullName>
+                <default>false</default>
+                <label>Toy: 2,6 to 5 kg</label>
+            </value>
+            <value>
+                <fullName>Small: 5,1 to 10 kg</fullName>
+                <default>false</default>
+                <label>Small: 5,1 to 10 kg</label>
+            </value>
+            <value>
+                <fullName>Medium: 10,1 to 25 kg</fullName>
+                <default>false</default>
+                <label>Medium: 10,1 to 25 kg</label>
+            </value>
+            <value>
+                <fullName>Large: 25,1 to 45 kg</fullName>
+                <default>false</default>
+                <label>Large: 25,1 to 45 kg</label>
+            </value>
+            <value>
+                <fullName>Extra Large: 45,1 to 100 kg</fullName>
+                <default>false</default>
+                <label>Extra Large: 45,1 to 100 kg</label>
+            </value>
+            <value>
+                <fullName>Giant: over 100 kg</fullName>
+                <default>false</default>
+                <label>Giant: over 100 kg</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

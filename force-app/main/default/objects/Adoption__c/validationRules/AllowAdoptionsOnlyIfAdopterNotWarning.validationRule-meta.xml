@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>AllowAdoptionsOnlyIfAdopterNotWarning</fullName>
+    <active>true</active>
+    <description>The adopter is checked as Warning. The adoption can not be completed.</description>
+    <errorConditionFormula>Adopter__r.Warning__c = true</errorConditionFormula>
+    <errorMessage>The adopter is checked as Warning. The adoption can not be completed.</errorMessage>
+</ValidationRule>
