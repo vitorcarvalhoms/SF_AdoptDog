@@ -3,9 +3,9 @@
     <fullName>All</fullName>
     <columns>NAME</columns>
     <columns>Animal__c</columns>
-    <columns>Stage__c</columns>
     <columns>Adopter__c</columns>
-    <columns>Detail__c</columns>
+    <columns>Stage__c</columns>
+    <columns>AdoptionDate__c</columns>
     <filterScope>Everything</filterScope>
     <label>All</label>
 </ListView>

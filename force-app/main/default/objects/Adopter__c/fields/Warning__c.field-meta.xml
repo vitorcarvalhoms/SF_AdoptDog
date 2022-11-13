@@ -2,7 +2,9 @@
 <CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
     <fullName>Warning__c</fullName>
     <defaultValue>false</defaultValue>
+    <description>If checked it means that this adopter has returned an animal with no relevant reason.</description>
     <externalId>false</externalId>
+    <inlineHelpText>If checked it means that this adopter has returned an animal with no relevant reason.</inlineHelpText>
     <label>Warning</label>
     <trackTrending>false</trackTrending>
     <type>Checkbox</type>

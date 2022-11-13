@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
     <fullName>AgeRange__c</fullName>
+    <description>Adopter&apos;s age</description>
     <externalId>false</externalId>
+    <inlineHelpText>Adopter&apos;s age</inlineHelpText>
     <label>Age Range</label>
     <required>true</required>
     <trackTrending>false</trackTrending>

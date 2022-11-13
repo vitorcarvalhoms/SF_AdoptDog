@@ -10,26 +10,27 @@
 	</types>
 	<types>
 		<members>Adopter__c.AgeRange__c</members>
-		<members>Adopter__c.Animal__c</members>
 		<members>Adopter__c.NumberOfAdoptions__c</members>
 		<members>Adopter__c.Occupation__c</members>
+		<members>Adopter__c.Phone__c</members>
 		<members>Adopter__c.Warning__c</members>
 		<members>Adoption__c.Adopter__c</members>
 		<members>Adoption__c.AdoptionDate__c</members>
-		<members>Adoption__c.AdoptionRate__c</members>
+		<members>Adoption__c.AdoptionFee__c</members>
 		<members>Adoption__c.Animal__c</members>
 		<members>Adoption__c.Detail__c</members>
+		<members>Adoption__c.Flag__c</members>
 		<members>Adoption__c.Stage__c</members>
-		<members>Animal__c.Adopter__c</members>
 		<members>Animal__c.Age__c</members>
-		<members>Animal__c.Cost__c</members>
+		<members>Animal__c.Breed__c</members>
+		<members>Animal__c.Expenses__c</members>
 		<members>Animal__c.Neutered__c</members>
 		<members>Animal__c.Size__c</members>
 		<members>Animal__c.Stage__c</members>
 		<members>Animal__c.Weight__c</members>
 		<members>Cost__c.Animal__c</members>
-		<members>Cost__c.CostValue__c</members>
 		<members>Cost__c.Description__c</members>
+		<members>Cost__c.Value__c</members>
 		<members>Medical_Care__c.Animal__c</members>
 		<members>Medical_Care__c.Condition__c</members>
 		<members>Medical_Care__c.CostDescription__c</members>

@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
-    <fullName>Occupation__c</fullName>
-    <description>Adopter&apos;s job</description>
+    <fullName>Breed__c</fullName>
+    <description>Dog&apos;s breed</description>
     <externalId>false</externalId>
-    <inlineHelpText>Adopter&apos;s job</inlineHelpText>
-    <label>Occupation</label>
-    <length>255</length>
-    <required>false</required>
+    <inlineHelpText>Dog&apos;s breed</inlineHelpText>
+    <label>Breed</label>
+    <length>50</length>
+    <required>true</required>
     <trackTrending>false</trackTrending>
     <type>Text</type>
     <unique>false</unique>

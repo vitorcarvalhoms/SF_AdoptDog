@@ -11,29 +11,29 @@
         <valueSetDefinition>
             <sorted>false</sorted>
             <value>
-                <fullName>Saved</fullName>
+                <fullName>Rescued</fullName>
                 <default>false</default>
-                <label>Saved</label>
+                <label>Rescued</label>
             </value>
             <value>
-                <fullName>Back to Shelter</fullName>
+                <fullName>Medical Care</fullName>
                 <default>false</default>
-                <label>Back to Shelter</label>
+                <label>Medical Care</label>
             </value>
             <value>
-                <fullName>Treatment</fullName>
+                <fullName>ReadyForAdoption</fullName>
                 <default>false</default>
-                <label>Treatment</label>
-            </value>
-            <value>
-                <fullName>To Be Adopted</fullName>
-                <default>false</default>
-                <label>To Be Adopted</label>
+                <label>Ready For Adoption</label>
             </value>
             <value>
                 <fullName>Adopted</fullName>
                 <default>false</default>
                 <label>Adopted</label>
+            </value>
+            <value>
+                <fullName>Back to Shelter</fullName>
+                <default>false</default>
+                <label>Back to Shelter</label>
             </value>
         </valueSetDefinition>
     </valueSet>
