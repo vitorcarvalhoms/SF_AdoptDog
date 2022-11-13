@@ -91,6 +91,21 @@
         <field>Medical_Care__c.TreatmentDuration__c</field>
         <readable>true</readable>
     </fieldPermissions>
+    <layoutAssignments>
+        <layout>Adopter__c-Adopter Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Adoption__c-Adoption Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Animal__c-Animal Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Cost__c-Cost Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Medical_Care__c-Medical Care Layout</layout>
+    </layoutAssignments>
     <objectPermissions>
         <allowCreate>true</allowCreate>
         <allowDelete>true</allowDelete>
